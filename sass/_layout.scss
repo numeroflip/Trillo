@@ -37,6 +37,8 @@ justify-content: space-between;
 }
 
 .detail {
+    font-size: 1.4rem;
+    font-weight: 400;
     display:flex;
     background-color: var(--color-grey-light-2);
     padding: 4.5rem;
@@ -44,7 +46,7 @@ justify-content: space-between;
 }
 
 .description {
-font-size: 1.4rem;
+
 background-color: #fff;
 flex: 0 0 60%;
 margin-right: 4.5rem;
@@ -54,7 +56,8 @@ box-shadow: var(--shadow-light);
 
 .user-reviews {
 
-    box-shadow: var(--shadow-light);
+    display: flex;
+    flex-direction: column;
     flex: 1;
-    background-color: #fff;
+    
 }
